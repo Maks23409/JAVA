@@ -1,9 +1,11 @@
+package PR1;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 // ==========================================
-// 1. Клас Category
+// 1. Клас PR1.Category
 // ==========================================
 class Category {
     private int id;
@@ -40,7 +42,7 @@ class Category {
 }
 
 // ==========================================
-// 2. Клас Product
+// 2. Клас PR1.Product
 // ==========================================
 class Product {
     private int id;
@@ -110,7 +112,7 @@ class Product {
 }
 
 // ==========================================
-// 3. Клас Cart
+// 3. Клас PR1.Cart
 // ==========================================
 class Cart {
     private List<Product> products;
@@ -159,7 +161,7 @@ class Cart {
 }
 
 // ==========================================
-// 4. Клас Order
+// 4. Клас PR1.Order
 // ==========================================
 class Order {
     private List<Product> products;
@@ -201,7 +203,7 @@ class Order {
 }
 
 // ==========================================
-// 5. Головний клас Main з меню (CLI)
+// 5. Головний клас PR1.Main з меню (CLI)
 // ==========================================
 public class Main {
     public static void main(String[] args) {
